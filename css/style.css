@@ -1,0 +1,49 @@
+.body {
+    background: #131313;
+}
+
+.container {
+    width: 100%;
+    max-width: 570px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    background: #262626;
+    color: #fff;
+}
+
+.header {
+    padding: 20px;
+}
+
+.client__data {
+    display: flex;
+    flex-direction: column;
+}
+
+.client__btns {
+    margin-top: 20px;
+}
+
+.header__logo {
+    width: 180px;
+}
+
+.header__logo img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.client__switcher--disable {
+    background: linear-gradient(134.17deg, #55717A 4.98%, #252E36 94.88%);;
+}
+
+.client__switcher--enable {
+    background: linear-gradient(91.92deg, #FFEA77 31.05%, #FFED8F 69%);;
+}
+
+.client__switcher-ball {
+    background: #000;
+}
